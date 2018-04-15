@@ -23,5 +23,6 @@ function dec(n){
 }
 
 function makeInt(n){
-  return isNaN(parseInt(n,10));
+  parseInt(n,10);
+  return isNaN(makeInt(n));
 }
